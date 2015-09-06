@@ -1,0 +1,59 @@
+.container{
+	width: 736px;
+	height: 1464px;
+	clear: left;
+	overflow: hidden;
+}
+.hour{
+	height: 60px;
+	width: 30px;
+	background: gray;
+	border-bottom: 1px solid black;
+}
+.hoursWrap{
+	float: left;
+	/*margin-top: 18px;*/
+	width: 30px;
+	position: relative;
+	z-index: 100;
+}
+.hourNum{
+	float: right;
+	top: 43px;
+	position: relative;
+}
+.weekWrap{
+	/*width: 3161px;*/
+	/*width: 6200px;*/
+	height: 1464px;
+	position: relative;
+	left: 0;
+	/*overflow: hidden;*/
+	/*margin-top: 18px;*/
+}
+.dayWrap{
+	width: 100px;
+	float: left;
+	border-right: 1px solid black;
+}
+.date{
+	float: left;
+	background: gray;
+	position: relative;
+	width: 100px;
+	/*margin-top: -18px;*/
+}
+.day{
+	width: 100px;
+	float: left;
+	height: 1464px;
+	background: yellow;
+	border-right: 1px solid black;
+	display: inline-block;
+}
+.left, .right{
+	height: 50px;
+	width: 50px;
+	border: 1px solid black;
+	float: left;
+}
