@@ -1,6 +1,6 @@
 .container{
 	width: 736px;
-	height: 1464px;
+	height: 1482px;
 	clear: left;
 	overflow: hidden;
 }
@@ -12,7 +12,7 @@
 }
 .hoursWrap{
 	float: left;
-	/*margin-top: 18px;*/
+	margin-top: 18px;
 	width: 30px;
 	position: relative;
 	z-index: 100;
